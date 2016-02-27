@@ -1,0 +1,15 @@
+# Note that ONLY the patterns below are used for
+# gitcrypt purposes. Anything that does not
+# match the below patterns is retained as plain-text!!!
+# Note that the first filter is *, which means pretty much
+# everything is encrypted
+
+# Encrypt everything else
+* filter=git-crypt diff=git-crypt
+
+# Things to ignore, which MUST be added AFTER what's encrypted,
+# since this is the excclusion list!
+.git* !filter !diff
+readme* !filter !diff
+README* !filter !diff
+

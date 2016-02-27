@@ -1,0 +1,12 @@
+# Vim files
+*.swp
+*.swo
+*.swn
+
+# J-edit files
+*~
+
+# Compiled files and hidden files
+.DS_Store
+*.pyc
+
