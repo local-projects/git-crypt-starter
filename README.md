@@ -42,6 +42,9 @@ The identity is often an email address, and that's a good thing since that's a (
     gpg: key 95C8F9C3: "Charles DiMaggio <charlesdimaggio@localprojects.com>" not changed
     gpg: Total number processed: 1
     gpg:              unchanged: 1
+    
+    The key can also be imported with:
+    gpg --keyserver keyserver.ubuntu.com --recv [Identifier]
 
 ## Setting up an encrypted repo with select files
 
