@@ -5,7 +5,7 @@ Git-crypt is a mechanism for handling encrypted repositories using GPG keys.
 ## Pre-requisites
 
     brew install git-crypt
-    brew install gnupg
+    brew install gnupg2
     gpg --gen-key
 
 
